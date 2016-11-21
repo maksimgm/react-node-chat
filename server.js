@@ -13,7 +13,7 @@ io.on('connection', function(socket){
     io.emit('receive-message', msg);
   });
   socket.on("test",function(){
-    console.log('Mounted');
+    console.log('Component Mounted');
   });
 });
 
